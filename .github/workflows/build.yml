@@ -27,8 +27,9 @@ jobs:
         pyinstaller --onefile --noconsole cartridge_gui.py
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: cartridge-logger
         path: dist/cartridge_gui.exe
+        retention-days: 7
 
