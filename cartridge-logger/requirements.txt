@@ -1,0 +1,7 @@
+pyinstaller
+mysql-connector-python
+tkinter
+csv
+os
+datetime 
+getpass
